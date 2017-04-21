@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyFristWebService/MyFristWebService.iml" filepath="$PROJECT_DIR$/MyFristWebService/MyFristWebService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyFristWebServiceClient/MyFristWebServiceClient.iml" filepath="$PROJECT_DIR$/MyFristWebServiceClient/MyFristWebServiceClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/webServiceTestFirst.iml" filepath="$PROJECT_DIR$/.idea/webServiceTestFirst.iml" />
+    </modules>
+  </component>
+</project>

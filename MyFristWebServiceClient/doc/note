@@ -1,0 +1,5 @@
+jdk1.8 自动生成webservice时由于bug将产生错误
+Exception in thread "main" java.lang.AssertionError: org.xml.sax.SAXParseException; systemId: jar:file:/E:/intellijWorkSpace/webServiceTestFirst/MyFristWebService/lib/jaxb-xjc.jar!/com/sun/tools/xjc/reader/xmlschema/bindinfo/binding.xsd; lineNumber: 52; columnNumber: 88; schema_reference: ���� accessExternalSchema �������õ����ƶ������� 'file' ����, ����޷���ȡ�����ĵ� 'xjc.xsd'��
+解决方案：http://stackoverflow.com/questions/23011547/webservice-client-generation-error-with-jdk8
+Create a file named jaxp.properties (if it doesn't exist) under /path/to/jdk1.8.0/jre/lib and then write this line in it:
+javax.xml.accessExternalSchema = all

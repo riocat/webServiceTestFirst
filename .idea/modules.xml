@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MyFristWebService/MyFristWebService.iml" filepath="$PROJECT_DIR$/MyFristWebService/MyFristWebService.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyFristWebServiceClient/MyFristWebServiceClient.iml" filepath="$PROJECT_DIR$/MyFristWebServiceClient/MyFristWebServiceClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jaxwsspringtest/jaxwsspringtest.iml" filepath="$PROJECT_DIR$/jaxwsspringtest/jaxwsspringtest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/webServiceTestFirst.iml" filepath="$PROJECT_DIR$/.idea/webServiceTestFirst.iml" />
     </modules>
   </component>

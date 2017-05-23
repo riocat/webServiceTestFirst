@@ -3,7 +3,6 @@ package example;
 import com.yang.jaxws.service.impl.helloservice.HelloServiceImpl;
 import com.yang.jaxws.service.impl.helloservice.HelloServiceImplService;
 import com.yang.jaxws.service.impl.helloservice.User;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.util.Date;
 
@@ -28,6 +27,9 @@ public class HelloServiceTest {
         u.setId(1);
         u.setName("d");
         u.setCreateDate(new Date());
-        System.out.println(helloService.changeName(u).getCreateDate());
+        System.out.println(helloService.changeName(u).getCreateDate().getTime());
+        System.out.println(helloService.getUserList().get(0).getName());
+        System.out.println(helloService.getUsers().get(1).getCreateDate().getTime());
+        System.out.println(helloService.getUserMap().getMap().getItem().get(1).getUser().getCreateDate().getTime());
     }
 }

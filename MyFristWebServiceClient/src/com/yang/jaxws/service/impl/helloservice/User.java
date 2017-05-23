@@ -1,16 +1,19 @@
 
 package com.yang.jaxws.service.impl.helloservice;
 
+import java.util.Date;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlSchemaType;
 import javax.xml.bind.annotation.XmlType;
-import java.util.Date;
+import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
 
 /**
- * <p>user complex type的 Java 类。
+ * <p>user complex type�� Java �ࡣ
  * 
- * <p>以下模式片段指定包含在此类中的预期内容。
+ * <p>����ģʽƬ��ָ�������ڴ����е�Ԥ�����ݡ�
  * 
  * <pre>
  * &lt;complexType name="user"&gt;
@@ -36,13 +39,12 @@ import java.util.Date;
 })
 public class User {
 
-
     protected Date createDate;
     protected int id;
     protected String name;
 
     /**
-     * 获取createDate属性的值。
+     * ��ȡcreateDate���Ե�ֵ��
      * 
      * @return
      *     possible object is
@@ -54,7 +56,7 @@ public class User {
     }
 
     /**
-     * 设置createDate属性的值。
+     * ����createDate���Ե�ֵ��
      * 
      * @param value
      *     allowed object is
@@ -66,7 +68,7 @@ public class User {
     }
 
     /**
-     * 获取id属性的值。
+     * ��ȡid���Ե�ֵ��
      * 
      */
     public int getId() {
@@ -74,7 +76,7 @@ public class User {
     }
 
     /**
-     * 设置id属性的值。
+     * ����id���Ե�ֵ��
      * 
      */
     public void setId(int value) {
@@ -82,7 +84,7 @@ public class User {
     }
 
     /**
-     * 获取name属性的值。
+     * ��ȡname���Ե�ֵ��
      * 
      * @return
      *     possible object is
@@ -94,7 +96,7 @@ public class User {
     }
 
     /**
-     * 设置name属性的值。
+     * ����name���Ե�ֵ��
      * 
      * @param value
      *     allowed object is

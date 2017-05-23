@@ -1,0 +1,9 @@
+jaxwsspringtest
+测试jaxws使用spring部署在web项目上
+@WebService()中加上targetNamespace则无法正常发布
+客户端测试时为避免多个service因包名冲突应该在
+wsdl2java -b bindingforjaxws.xml -p com.yang.jaxws.service.impl.helloservice http://localhost/services/helloService?wsdl
+生成命令中添加-p参数 使用bindingforjaxws.xml解决日期转换问题
+
+客户端使用spring部署的方式没有成功，也没有资料
+

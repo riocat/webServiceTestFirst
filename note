@@ -4,8 +4,8 @@ jaxwsspringtest
 客户端测试时为避免多个service因包名冲突应该在
 wsdl2java -b bindingforjaxws.xml -p com.yang.jaxws.service.impl.helloservice http://localhost/services/helloService?wsdl
 生成命令中添加-p参数 使用bindingforjaxws.xml解决日期转换问题
+使用命令生成客户端代码时要删除实体类上无用注解，删除工具生成的日期转换的辅助类
 
 客户端使用spring部署的方式没有成功，也没有资料
 
 jaxws转化map之后也只能得到list或数组，要得到map需要自己编写转化方法
-
